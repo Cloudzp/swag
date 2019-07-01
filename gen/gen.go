@@ -39,6 +39,8 @@ type Config struct {
 
 	// ParseVendor whether swag should be parse vendor folder
 	ParseVendor bool
+	// ParseDependency whether swag should be parse outside dependency folder
+	ParseDependency bool
 
 	// MarkdownFilesDir used to find markdownfiles, which can be used for tag descriptions
 	MarkdownFilesDir string
